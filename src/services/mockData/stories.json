@@ -1,0 +1,113 @@
+[
+  {
+    "id": "1",
+    "title": "The Magic Forest Adventure",
+    "theme": "fantasy",
+    "scenes": [
+      {
+        "id": "scene1",
+        "background": "bg_forest",
+        "assets": [
+          {
+            "type": "character",
+            "assetId": "char_wizard",
+            "position": { "x": 100, "y": 200 },
+            "animation": "wave"
+          }
+        ],
+        "audioUrl": null,
+        "decisions": [
+          {
+            "text": "Go deeper into the forest",
+            "targetSceneId": "scene2"
+          },
+          {
+            "text": "Return to the village",
+            "targetSceneId": "scene3"
+          }
+        ],
+        "nextSceneId": "scene2"
+      }
+    ],
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T14:45:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Space Explorer Mission",
+    "theme": "space",
+    "scenes": [
+      {
+        "id": "scene1",
+        "background": "bg_spaceship",
+        "assets": [
+          {
+            "type": "character",
+            "assetId": "char_astronaut",
+            "position": { "x": 150, "y": 180 },
+            "animation": "jump"
+          },
+          {
+            "type": "prop",
+            "assetId": "prop_alien_crystal",
+            "position": { "x": 300, "y": 250 },
+            "animation": "sparkle"
+          }
+        ],
+        "audioUrl": null,
+        "decisions": [
+          {
+            "text": "Touch the crystal",
+            "targetSceneId": "scene2"
+          },
+          {
+            "text": "Report to mission control",
+            "targetSceneId": "scene3"
+          }
+        ],
+        "nextSceneId": "scene2"
+      }
+    ],
+    "createdAt": "2024-01-14T09:15:00Z",
+    "updatedAt": "2024-01-14T16:22:00Z"
+  },
+  {
+    "id": "3",
+    "title": "Underwater Treasure Hunt",
+    "theme": "underwater",
+    "scenes": [
+      {
+        "id": "scene1",
+        "background": "bg_coral_reef",
+        "assets": [
+          {
+            "type": "character",
+            "assetId": "char_diver",
+            "position": { "x": 80, "y": 160 },
+            "animation": "walk"
+          },
+          {
+            "type": "character",
+            "assetId": "char_dolphin",
+            "position": { "x": 250, "y": 140 },
+            "animation": "jump"
+          }
+        ],
+        "audioUrl": null,
+        "decisions": [
+          {
+            "text": "Follow the dolphin",
+            "targetSceneId": "scene2"
+          },
+          {
+            "text": "Explore the cave",
+            "targetSceneId": "scene3"
+          }
+        ],
+        "nextSceneId": "scene2"
+      }
+    ],
+    "createdAt": "2024-01-13T11:45:00Z",
+    "updatedAt": "2024-01-13T17:30:00Z"
+  }
+]

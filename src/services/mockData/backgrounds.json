@@ -1,0 +1,56 @@
+[
+  {
+    "id": "bg_forest",
+    "name": "Enchanted Forest",
+    "theme": "fantasy",
+    "imageUrl": "/assets/backgrounds/forest.png"
+  },
+  {
+    "id": "bg_castle",
+    "name": "Royal Castle",
+    "theme": "fantasy",
+    "imageUrl": "/assets/backgrounds/castle.png"
+  },
+  {
+    "id": "bg_village",
+    "name": "Peaceful Village",
+    "theme": "fantasy",
+    "imageUrl": "/assets/backgrounds/village.png"
+  },
+  {
+    "id": "bg_spaceship",
+    "name": "Space Station",
+    "theme": "space",
+    "imageUrl": "/assets/backgrounds/spaceship.png"
+  },
+  {
+    "id": "bg_planet",
+    "name": "Alien Planet",
+    "theme": "space",
+    "imageUrl": "/assets/backgrounds/planet.png"
+  },
+  {
+    "id": "bg_moon_base",
+    "name": "Moon Base",
+    "theme": "space",
+    "imageUrl": "/assets/backgrounds/moon_base.png"
+  },
+  {
+    "id": "bg_coral_reef",
+    "name": "Coral Reef",
+    "theme": "underwater",
+    "imageUrl": "/assets/backgrounds/coral_reef.png"
+  },
+  {
+    "id": "bg_underwater_cave",
+    "name": "Underwater Cave",
+    "theme": "underwater",
+    "imageUrl": "/assets/backgrounds/underwater_cave.png"
+  },
+  {
+    "id": "bg_shipwreck",
+    "name": "Sunken Ship",
+    "theme": "underwater",
+    "imageUrl": "/assets/backgrounds/shipwreck.png"
+  }
+]

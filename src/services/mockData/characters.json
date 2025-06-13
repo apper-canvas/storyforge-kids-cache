@@ -1,0 +1,65 @@
+[
+  {
+    "id": "char_wizard",
+    "name": "Wise Wizard",
+    "theme": "fantasy",
+    "imageUrl": "/assets/characters/wizard.png",
+    "animations": ["wave", "walk", "jump"]
+  },
+  {
+    "id": "char_knight",
+    "name": "Brave Knight",
+    "theme": "fantasy",
+    "imageUrl": "/assets/characters/knight.png",
+    "animations": ["walk", "jump", "wave"]
+  },
+  {
+    "id": "char_princess",
+    "name": "Kind Princess",
+    "theme": "fantasy",
+    "imageUrl": "/assets/characters/princess.png",
+    "animations": ["wave", "walk", "jump"]
+  },
+  {
+    "id": "char_astronaut",
+    "name": "Space Explorer",
+    "theme": "space",
+    "imageUrl": "/assets/characters/astronaut.png",
+    "animations": ["jump", "wave", "walk"]
+  },
+  {
+    "id": "char_alien",
+    "name": "Friendly Alien",
+    "theme": "space",
+    "imageUrl": "/assets/characters/alien.png",
+    "animations": ["wave", "jump", "walk"]
+  },
+  {
+    "id": "char_robot",
+    "name": "Helper Robot",
+    "theme": "space",
+    "imageUrl": "/assets/characters/robot.png",
+    "animations": ["walk", "wave", "jump"]
+  },
+  {
+    "id": "char_diver",
+    "name": "Ocean Explorer",
+    "theme": "underwater",
+    "imageUrl": "/assets/characters/diver.png",
+    "animations": ["walk", "jump", "wave"]
+  },
+  {
+    "id": "char_mermaid",
+    "name": "Singing Mermaid",
+    "theme": "underwater",
+    "imageUrl": "/assets/characters/mermaid.png",
+    "animations": ["wave", "jump", "walk"]
+  },
+  {
+    "id": "char_dolphin",
+    "name": "Playful Dolphin",
+    "theme": "underwater",
+    "imageUrl": "/assets/characters/dolphin.png",
+    "animations": ["jump", "walk", "wave"]
+  }
+]

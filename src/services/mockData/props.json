@@ -1,0 +1,65 @@
+[
+  {
+    "id": "prop_magic_wand",
+    "name": "Magic Wand",
+    "theme": "fantasy",
+    "imageUrl": "/assets/props/magic_wand.png",
+    "animations": ["sparkle"]
+  },
+  {
+    "id": "prop_treasure_chest",
+    "name": "Treasure Chest",
+    "theme": "fantasy",
+    "imageUrl": "/assets/props/treasure_chest.png",
+    "animations": ["open"]
+  },
+  {
+    "id": "prop_crystal_ball",
+    "name": "Crystal Ball",
+    "theme": "fantasy",
+    "imageUrl": "/assets/props/crystal_ball.png",
+    "animations": ["sparkle"]
+  },
+  {
+    "id": "prop_rocket",
+    "name": "Space Rocket",
+    "theme": "space",
+    "imageUrl": "/assets/props/rocket.png",
+    "animations": ["launch"]
+  },
+  {
+    "id": "prop_alien_crystal",
+    "name": "Alien Crystal",
+    "theme": "space",
+    "imageUrl": "/assets/props/alien_crystal.png",
+    "animations": ["sparkle"]
+  },
+  {
+    "id": "prop_satellite",
+    "name": "Communication Satellite",
+    "theme": "space",
+    "imageUrl": "/assets/props/satellite.png",
+    "animations": ["rotate"]
+  },
+  {
+    "id": "prop_pearl",
+    "name": "Giant Pearl",
+    "theme": "underwater",
+    "imageUrl": "/assets/props/pearl.png",
+    "animations": ["sparkle"]
+  },
+  {
+    "id": "prop_seashell",
+    "name": "Magic Seashell",
+    "theme": "underwater",
+    "imageUrl": "/assets/props/seashell.png",
+    "animations": ["open"]
+  },
+  {
+    "id": "prop_anchor",
+    "name": "Ship's Anchor",
+    "theme": "underwater",
+    "imageUrl": "/assets/props/anchor.png",
+    "animations": ["drop"]
+  }
+]
