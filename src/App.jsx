@@ -95,7 +95,7 @@ function AppContent() {
         console.error("Authentication failed:", error);
       }
     });
-  }, []);
+}, [navigate, dispatch]); // Added navigate and dispatch to dependencies as they are used in the authentication callbacks
   
   // Authentication methods to share via context
   const authMethods = {
@@ -126,8 +126,8 @@ function AppContent() {
         <Route path="/error" element={<ErrorPage />} />
         <Route path="/prompt-password/:appId/:emailAddress/:provider" element={<PromptPassword />} />
         <Route path="/reset-password/:appId/:fields" element={<ResetPassword />} />
-        <Route path="/" element={<Layout />}>
-          <Route index element={<routeArray[0].component />} />
+<Route path="/" element={<Layout />}>
+          <Route index element={<routes.myStories.component />} />
           {routeArray.map(route => (
             <Route
               key={route.id}
@@ -135,6 +135,7 @@ function AppContent() {
               element={<route.component />}
             />
           ))}
+        </Route>
         </Route>
       </Routes>
       
