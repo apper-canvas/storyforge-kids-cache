@@ -13,20 +13,56 @@
             "assetId": "char_wizard",
             "position": { "x": 100, "y": 200 },
             "animation": "wave"
+          },
+          {
+            "type": "prop",
+            "assetId": "prop_magic_wand",
+            "position": { "x": 150, "y": 180 },
+            "animation": "sparkle"
           }
         ],
         "audioUrl": null,
         "decisions": [
           {
-            "text": "Go deeper into the forest",
+            "text": "Ask the wizard for help",
             "targetSceneId": "scene2"
           },
           {
-            "text": "Return to the village",
+            "text": "Explore the forest alone",
             "targetSceneId": "scene3"
           }
         ],
         "nextSceneId": "scene2"
+      },
+      {
+        "id": "scene2",
+        "background": "bg_castle",
+        "assets": [
+          {
+            "type": "character",
+            "assetId": "char_princess",
+            "position": { "x": 200, "y": 180 },
+            "animation": "wave"
+          },
+          {
+            "type": "prop",
+            "assetId": "prop_treasure_chest",
+            "position": { "x": 300, "y": 220 },
+            "animation": "open"
+          }
+        ],
+        "audioUrl": null,
+        "decisions": [
+          {
+            "text": "Open the treasure chest",
+            "targetSceneId": "scene3"
+          },
+          {
+            "text": "Talk to the princess",
+            "targetSceneId": "scene1"
+          }
+        ],
+        "nextSceneId": "scene3"
       }
     ],
     "createdAt": "2024-01-15T10:30:00Z",
@@ -57,7 +93,7 @@
         "audioUrl": null,
         "decisions": [
           {
-            "text": "Touch the crystal",
+            "text": "Touch the mysterious crystal",
             "targetSceneId": "scene2"
           },
           {
@@ -66,6 +102,42 @@
           }
         ],
         "nextSceneId": "scene2"
+      },
+      {
+        "id": "scene2",
+        "background": "bg_planet",
+        "assets": [
+          {
+            "type": "character",
+            "assetId": "char_alien",
+            "position": { "x": 120, "y": 160 },
+            "animation": "wave"
+          },
+          {
+            "type": "character",
+            "assetId": "char_robot",
+            "position": { "x": 250, "y": 190 },
+            "animation": "walk"
+          },
+          {
+            "type": "prop",
+            "assetId": "prop_rocket",
+            "position": { "x": 350, "y": 200 },
+            "animation": "launch"
+          }
+        ],
+        "audioUrl": null,
+        "decisions": [
+          {
+            "text": "Communicate with the alien",
+            "targetSceneId": "scene3"
+          },
+          {
+            "text": "Board the rocket ship",
+            "targetSceneId": "scene1"
+          }
+        ],
+        "nextSceneId": "scene3"
       }
     ],
     "createdAt": "2024-01-14T09:15:00Z",
@@ -91,23 +163,302 @@
             "assetId": "char_dolphin",
             "position": { "x": 250, "y": 140 },
             "animation": "jump"
+          },
+          {
+            "type": "prop",
+            "assetId": "prop_seashell",
+            "position": { "x": 320, "y": 200 },
+            "animation": "open"
           }
         ],
         "audioUrl": null,
         "decisions": [
           {
-            "text": "Follow the dolphin",
+            "text": "Follow the dolphin's lead",
             "targetSceneId": "scene2"
           },
           {
-            "text": "Explore the cave",
+            "text": "Examine the magic seashell",
             "targetSceneId": "scene3"
           }
         ],
         "nextSceneId": "scene2"
+      },
+      {
+        "id": "scene2",
+        "background": "bg_shipwreck",
+        "assets": [
+          {
+            "type": "character",
+            "assetId": "char_mermaid",
+            "position": { "x": 180, "y": 150 },
+            "animation": "wave"
+          },
+          {
+            "type": "prop",
+            "assetId": "prop_pearl",
+            "position": { "x": 280, "y": 220 },
+            "animation": "sparkle"
+          },
+          {
+            "type": "prop",
+            "assetId": "prop_anchor",
+            "position": { "x": 100, "y": 240 },
+            "animation": "drop"
+          }
+        ],
+        "audioUrl": null,
+        "decisions": [
+          {
+            "text": "Ask the mermaid about the treasure",
+            "targetSceneId": "scene3"
+          },
+          {
+            "text": "Take the giant pearl",
+            "targetSceneId": "scene1"
+          }
+        ],
+        "nextSceneId": "scene3"
       }
     ],
     "createdAt": "2024-01-13T11:45:00Z",
     "updatedAt": "2024-01-13T17:30:00Z"
+  },
+  {
+    "id": "4",
+    "title": "Mountain Quest Adventure",
+    "theme": "adventure",
+    "scenes": [
+      {
+        "id": "scene1",
+        "background": "bg_village",
+        "assets": [
+          {
+            "type": "character",
+            "assetId": "char_knight",
+            "position": { "x": 120, "y": 180 },
+            "animation": "walk"
+          },
+          {
+            "type": "prop",
+            "assetId": "prop_treasure_chest",
+            "position": { "x": 280, "y": 210 },
+            "animation": "open"
+          }
+        ],
+        "audioUrl": null,
+        "decisions": [
+          {
+            "text": "Head to the mountains",
+            "targetSceneId": "scene2"
+          },
+          {
+            "text": "Search the village for clues",
+            "targetSceneId": "scene3"
+          }
+        ],
+        "nextSceneId": "scene2"
+      },
+      {
+        "id": "scene2",
+        "background": "bg_forest",
+        "assets": [
+          {
+            "type": "character",
+            "assetId": "char_wizard",
+            "position": { "x": 150, "y": 170 },
+            "animation": "wave"
+          },
+          {
+            "type": "character",
+            "assetId": "char_knight",
+            "position": { "x": 250, "y": 190 },
+            "animation": "jump"
+          },
+          {
+            "type": "prop",
+            "assetId": "prop_crystal_ball",
+            "position": { "x": 320, "y": 160 },
+            "animation": "sparkle"
+          }
+        ],
+        "audioUrl": null,
+        "decisions": [
+          {
+            "text": "Consult the crystal ball",
+            "targetSceneId": "scene3"
+          },
+          {
+            "text": "Continue climbing",
+            "targetSceneId": "scene1"
+          }
+        ],
+        "nextSceneId": "scene3"
+      }
+    ],
+    "createdAt": "2024-01-12T08:20:00Z",
+    "updatedAt": "2024-01-12T15:10:00Z"
+  },
+  {
+    "id": "5",
+    "title": "Pirate Adventure on the High Seas",
+    "theme": "adventure",
+    "scenes": [
+      {
+        "id": "scene1",
+        "background": "bg_shipwreck",
+        "assets": [
+          {
+            "type": "character",
+            "assetId": "char_diver",
+            "position": { "x": 100, "y": 180 },
+            "animation": "walk"
+          },
+          {
+            "type": "prop",
+            "assetId": "prop_anchor",
+            "position": { "x": 200, "y": 220 },
+            "animation": "drop"
+          },
+          {
+            "type": "prop",
+            "assetId": "prop_treasure_chest",
+            "position": { "x": 320, "y": 200 },
+            "animation": "open"
+          }
+        ],
+        "audioUrl": null,
+        "decisions": [
+          {
+            "text": "Explore the sunken ship",
+            "targetSceneId": "scene2"
+          },
+          {
+            "text": "Surface for air",
+            "targetSceneId": "scene3"
+          }
+        ],
+        "nextSceneId": "scene2"
+      },
+      {
+        "id": "scene2",
+        "background": "bg_coral_reef",
+        "assets": [
+          {
+            "type": "character",
+            "assetId": "char_mermaid",
+            "position": { "x": 160, "y": 140 },
+            "animation": "wave"
+          },
+          {
+            "type": "character",
+            "assetId": "char_dolphin",
+            "position": { "x": 280, "y": 160 },
+            "animation": "jump"
+          },
+          {
+            "type": "prop",
+            "assetId": "prop_pearl",
+            "position": { "x": 350, "y": 190 },
+            "animation": "sparkle"
+          }
+        ],
+        "audioUrl": null,
+        "decisions": [
+          {
+            "text": "Follow the mermaid's guidance",
+            "targetSceneId": "scene3"
+          },
+          {
+            "text": "Collect the pearl treasure",
+            "targetSceneId": "scene1"
+          }
+        ],
+        "nextSceneId": "scene3"
+      }
+    ],
+    "createdAt": "2024-01-11T14:30:00Z",
+    "updatedAt": "2024-01-11T18:45:00Z"
+  },
+  {
+    "id": "6",
+    "title": "The Enchanted Kingdom",
+    "theme": "fantasy",
+    "scenes": [
+      {
+        "id": "scene1",
+        "background": "bg_castle",
+        "assets": [
+          {
+            "type": "character",
+            "assetId": "char_princess",
+            "position": { "x": 140, "y": 170 },
+            "animation": "wave"
+          },
+          {
+            "type": "character",
+            "assetId": "char_knight",
+            "position": { "x": 240, "y": 190 },
+            "animation": "walk"
+          },
+          {
+            "type": "prop",
+            "assetId": "prop_magic_wand",
+            "position": { "x": 300, "y": 150 },
+            "animation": "sparkle"
+          }
+        ],
+        "audioUrl": null,
+        "decisions": [
+          {
+            "text": "Accept the princess's quest",
+            "targetSceneId": "scene2"
+          },
+          {
+            "text": "Explore the castle grounds",
+            "targetSceneId": "scene3"
+          }
+        ],
+        "nextSceneId": "scene2"
+      },
+      {
+        "id": "scene2",
+        "background": "bg_forest",
+        "assets": [
+          {
+            "type": "character",
+            "assetId": "char_wizard",
+            "position": { "x": 180, "y": 160 },
+            "animation": "jump"
+          },
+          {
+            "type": "prop",
+            "assetId": "prop_crystal_ball",
+            "position": { "x": 120, "y": 200 },
+            "animation": "sparkle"
+          },
+          {
+            "type": "prop",
+            "assetId": "prop_treasure_chest",
+            "position": { "x": 320, "y": 220 },
+            "animation": "open"
+          }
+        ],
+        "audioUrl": null,
+        "decisions": [
+          {
+            "text": "Learn magic from the wizard",
+            "targetSceneId": "scene3"
+          },
+          {
+            "text": "Return to the castle",
+            "targetSceneId": "scene1"
+          }
+        ],
+        "nextSceneId": "scene3"
+      }
+    ],
+    "createdAt": "2024-01-10T09:45:00Z",
+    "updatedAt": "2024-01-10T16:20:00Z"
   }
 ]
