@@ -92,10 +92,11 @@ function AppContent() {
         }
       },
       onError: function(error) {
-console.error("Authentication failed:", error);
+        console.error("Authentication failed:", error);
       }
     });
   }, []); // No dependencies needed - navigate and dispatch are stable functions
+  
   // Authentication methods to share via context
   const authMethods = {
     isInitialized,
@@ -123,7 +124,7 @@ console.error("Authentication failed:", error);
         <Route path="/signup" element={<Signup />} />
         <Route path="/callback" element={<Callback />} />
         <Route path="/error" element={<ErrorPage />} />
-<Route path="/prompt-password/:appId/:emailAddress/:provider" element={<PromptPassword />} />
+        <Route path="/prompt-password/:appId/:emailAddress/:provider" element={<PromptPassword />} />
         <Route path="/reset-password/:appId/:fields" element={<ResetPassword />} />
         <Route path="/" element={<Layout />}>
           <Route index element={<routes.myStories.component />} />
@@ -152,6 +153,16 @@ console.error("Authentication failed:", error);
         progressClassName="bg-gradient-to-r from-primary to-secondary"
       />
     </AuthContext.Provider>
+  );
+}
+
+function App() {
+  return (
+    <Provider store={store}>
+      <BrowserRouter>
+        <AppContent />
+      </BrowserRouter>
+    </Provider>
   );
 }
 
