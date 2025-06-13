@@ -166,14 +166,4 @@ function App() {
   );
 }
 
-function App() {
-  return (
-    <Provider store={store}>
-      <BrowserRouter>
-        <AppContent />
-      </BrowserRouter>
-    </Provider>
-  );
-}
-
 export default App;
